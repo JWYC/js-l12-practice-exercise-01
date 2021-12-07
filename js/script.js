@@ -17,11 +17,11 @@ const displayUsers = function(userResults){
       const country = user.location.country;
       const name = user.name.first;
       const imgURL = user.picture.medium;
-      document.createElement("userDiv");
+      const userDiv = document.createElement("Div");
       userDiv.innerHTML = `
          <h3>${name}</h3>
          <p>${country}</p>
-         <img src ${imgURL} alt= "User avatar"/>
+         <img src = ${imgURL} alt= "User avatar"/>
       `;
       randomFolks.append(userDiv);
    }
