@@ -8,3 +8,12 @@ const getData = async function(){
 
 getData();
 
+const displayUsers = function(usersResults){
+   randomFolks.innerHTML ="";
+   for (const user in usersResults){
+      const country = data.location.country;
+      const name = data.name.first;
+      const imgURL = data.picture.medium;
+   }
+
+};
